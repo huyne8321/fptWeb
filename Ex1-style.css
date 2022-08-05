@@ -1,0 +1,649 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.fpt-header{
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    
+}
+.header-top{
+    /* background-color: pink; */
+    width: 100%;
+    height: 60%;
+    margin: 0 ;
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    background-color: Black;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    /* position: relative; */
+}
+
+.logo{
+    /* background-color: greenyellow; */
+    width: 250px;
+    height: 100%;
+}
+.imgLogo{
+    margin: 10px 30px 30px 0px ;
+}
+.input {
+    /* background-color: pink; */
+    width: 450px;
+    height: 60px;
+    text-align: center;
+}
+.input input{
+    width: 450px;
+    height: 40px;
+    margin: 8px 50px 8px 0 ;
+    border-radius: 3px;
+}
+.fpt-search{
+    display: flex;
+}
+.icon button{
+    background-color: black;
+    width: 30px;
+    height: 44px;
+    margin: 8px 10px 8px 0 ;
+    border-radius: 3px;
+    z-index: 2;
+}
+.icon button i{
+    /* z-index: ; */
+    font-size: 20px;
+    color: white;
+}
+.fpt-options{
+    /* background-color: aliceblue; */
+    width: 600px;
+    height: 60px;
+    display: flex;
+}
+.infor{
+    /* background-color: pink; */
+    width: 150px;
+    height: 60px;
+    display: block;
+    text-align: center;
+}
+.infor i{
+    margin-top: 5px;
+    margin-bottom: 12px;
+    color: white;
+}
+.infor p{
+    color: white;
+}
+.payment {
+    margin-left : 20px; 
+    width: 200px;
+    height: 60px;
+    display: block;
+    text-align: center;
+}
+.payment I{
+    margin-top: 5px;
+    margin-bottom: 12px;
+    color: white;
+}
+.payment p{
+    color: white;
+}
+.myAccount{
+    margin-left : 20px; 
+    width: 150px;
+    height: 60px;
+    display: block;
+    text-align: center;
+}
+.myAccount i{
+    margin-top: 5px;
+    margin-bottom: 12px;
+    color: white;
+}
+.myAccount p{
+    color: white;
+}
+.shoppingCart{
+    margin-left : 0px; ;
+    width: 120px;
+    height: 60px;
+    display: block;
+    text-align: center;
+}
+.shoppingCart i{
+    margin-top: 5px;
+    margin-bottom: 12px;
+    color: white;
+}
+.shoppingCart p{
+    color: white;
+}
+.optionsMenu1{
+    /* background-color: pink; */
+    /* margin-left: 80px; */
+    width: 118px;
+    height: 40px;
+    text-align: left;
+    display: flex;
+    margin-right: 10px;
+    position: relative;
+    
+}
+
+.optionsMenu3{
+    /* background-color: pink; */
+    width: 238px;
+    height: 40px;
+    margin: 0 10px 0;
+    display: flex;  
+}
+.optionsMenu4{
+    /* background-color: pink; */
+    width: 158px;
+    height: 40px;
+    margin: 0 10px 0;
+    display: flex;  
+}
+.optionsMenu5{
+    /* background-color: pink; */
+    width: 228px;
+    height: 40px;
+    margin: 0 10px 0;
+    display: flex;  
+}
+.optionsMenu6{
+    /* background-color: pink; */
+    width: 258px;
+    height: 40px;
+    margin: 0 10px 0;
+    display: flex;  
+}
+.optionsMenu7{
+    /* background-color: pink; */
+    width: 168px;
+    height: 40px;
+    margin: 0 10px 0;
+    display: flex;  
+}
+.optionsMenu8{
+    /* background-color: pink; */
+    width: 248px;
+    height: 40px;
+    margin: 0 10px 0;
+    display: flex;  
+}
+.optionsMenu9{
+    /* background-color: pink; */
+    width: 168px;
+    height: 40px;
+    margin: 0 10px 0;
+    display: flex;  
+}
+.optionsMenu10{
+    /* background-color: pink; */
+    width: 208px;
+    height: 40px;
+    margin: 0 80px 0 10PX;
+    display: flex;  
+}
+.optionsMenu2{
+    /* background-color: aliceblue; */
+    margin: 0 10px 0 ;
+    width: 150px;
+    height: 40px; 
+    display: flex; 
+    position: relative; 
+}
+.optionsMenu1 i{
+    margin: 15px 3px 15px 5px ;
+    color: white;
+    /* display: inline; */
+}
+.optionsMenu1 p{
+    color: white;
+    font-size: 13px;
+    margin: 15px 3px 15px 2px ;
+}
+.optionsMenu2 i{
+    margin: 15px 3px 15px 5px ;
+    color: white;
+}
+.optionsMenu2 p{
+    color: white;
+    font-size: 13px;
+    margin: 15px 3px 15px 2px ;
+}
+.optionsMenu3 i{
+    margin: 15px 3px 15px 5px ;
+    color: white;
+}
+.optionsMenu3 p{
+    color: white;
+    font-size: 13px;
+    margin: 15px 3px 15px 2px ;
+}
+.optionsMenu4 i{
+    margin: 15px 3px 15px 5px ;
+    color: white;
+}
+.optionsMenu4 p{
+    color: white;
+    font-size: 13px;
+    margin: 15px 3px 15px 2px ;
+}
+.optionsMenu5 i{
+    margin: 15px 3px 15px 5px ;
+    color: white;
+}
+.optionsMenu5 p{
+    color: white;
+    font-size: 13px;
+    margin: 15px 3px 15px 5px ;
+}
+.optionsMenu6 i{
+    margin: 15px 3px 15px 5px ;
+    color: white;
+}
+.optionsMenu6 p{
+    color: white;
+    font-size: 13px;
+    margin: 15px 3px 15px 2px ;
+}
+.optionsMenu7 i{
+    margin: 15px 3px 15px 5px ;
+    color: white;
+}
+.optionsMenu7 p{
+    color: white;
+    font-size: 13px;
+    margin: 15px 3px 15px 2px ;
+}
+.optionsMenu8 i{
+    margin: 15px 3px 15px 5px ;
+    color: white;
+}
+.optionsMenu8 p{
+    color: white;
+    font-size: 13px;
+    margin: 15px 3px 15px 2px ;
+}
+.optionsMenu9 i{
+    margin: 15px 3px 15px 5px ;
+    color: white;
+}
+.optionsMenu9 p{
+    color: white;
+    font-size: 13px;
+    margin: 15px 3px 15px 2px ;
+}
+.optionsMenu10 i{
+    margin: 15px 3px 15px 5px ;
+    color: white;
+}
+.optionsMenu10 p{
+    color: white;
+    font-size: 13px;
+    margin: 15px 3px 15px 2px ;
+}
+
+.main{
+    width: 100%;
+    height: 800px;
+    /* background-color: pink; */
+}
+.flash-sale{
+    width: 100%;
+    height: 500px;
+    position: justify;
+    background-image: url("/kiemTra/NF_1200x628_1648630220.webp");
+    z-index: 0;
+}
+.timeSale{
+    width: 300px;
+    height: 50px;
+    /* background-color: pink; */
+    display: flex;
+    position: absolute;
+    top: 550px;
+    left: 600px;
+    font-size: 20px;
+    
+}
+.time{
+    display: flex;
+}
+.times{
+    
+}
+.time p{
+    /* color: white; */
+    margin-right: 5px;
+}
+.timeSale a{
+    margin-left: 5px;
+}
+
+.special{
+    width: 100%;
+    height: 1500px;
+    text-align: center;
+    /* background-image: url("https://scr.vn/wp-content/uploads/2020/07/%E1%BA%A2nh-n%E1%BB%81n-%C4%91%E1%BB%8F-nh%E1%BA%A1t-1024x640.jpg"); */
+    background-color: red;
+}
+.inside-special{
+    width: 1200px;
+    height: 300px;
+    /* background-color: pink; */
+    margin: 0 120px 020px;
+}
+.special-top{
+    /* background-color: pink; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.img-special1{
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.special-bottom{
+    background-color: white;
+    padding-bottom:1px;
+    width: 800px;
+    height: 130px;
+    display: flex;
+}
+.opt1{
+    /* background-color: blue; */
+    width: 25%;
+    height: 130px;
+    font-size: 18px;
+}
+.opt1:hover {
+    border-bottom: 2px red solid;
+}
+.opt1:hover p {
+    font-size: large;
+    font-weight: bold;
+}
+.opt1 p{
+    margin: 60px 15px 5px 5px;
+}
+.opt2{
+    /* background-color: blue; */
+    width: 25%;
+    height: 130px;
+    font-size: 18px;
+}
+.opt2 p{
+    margin: 60px 15px 5px 5px;
+}
+.opt3{
+    /* background-color: blue; */
+    width: 25%;
+    height: 130px;
+    font-size: 18px;
+}
+.opt3 p{
+    margin: 60px 15px 5px 5px;
+}
+.opt4{
+    /* background-color: blue; */
+    width: 25%;
+    height: 130px;
+    font-size: 18px;
+}
+.opt4 p{
+    margin: 60px 15px 5px 5px;
+}
+
+.products-list{
+    background-color: white;
+    width: 1275px;
+    margin-top: 150px;
+    margin-left: 120px;
+    margin-right: 80px;
+    height: 250px;
+}
+.img-products:hover{
+    border-bottom:  black solid;
+    font-size: 25px;
+}
+.img-products{
+    /* background-color: pink; */
+    width: 150px;
+    height: 100px ;
+    margin: 10px ;
+    text-align: center;
+    display: inline-block;
+}
+.hot-accessory{
+    background-color: white;
+    width: 1275px;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 80px;
+    height: 250px;
+}
+.hot-products{
+    width: 150px;
+    height: 100px ;
+    margin: 10px ;
+    text-align: center;
+    display: inline-block;
+}
+.hot-products:hover{
+    border-bottom: 2px ;
+    font-size: 25px;
+}
+.caption{
+    text-align: left;
+    padding-top: 5px;
+    margin: 10px  ;
+    font-size: 18px;
+}
+
+.listOptions{
+    background-color: red;
+    width: 1300px;
+    padding-right: 0px;
+    margin-top: 30px;
+    margin-left:100px;
+    margin-right: 60px;
+    height: 150px; 
+}
+.nav1{
+    /* background-color: white; */
+    width: 380px;
+    padding-right: 10px;
+    height: 100px ;
+    margin: 10px 20px  ;
+    /* text-align: center; */
+    display: inline-block;
+    
+    /* bordr:  width="350px"2px solid chocolate; */
+}
+
+footer{
+    margin-top:880px;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display:flex;
+}
+.foot-left{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+.fl{
+    width: 300px;  
+}
+.fl1{
+    width: 400px;  
+}
+.fl1 p{
+    margin:  20px 20px 30px 120px ;
+}
+.fl p{
+    margin:  20px 40px 30px 20px ;
+}
+.foot-right{
+    display: flex;
+    width: 700px;
+    height: 100%;
+}
+.fr1{
+    width: 400px;
+    height: 200px;
+    margin: 20px 30px 10px 10px;
+}
+.fr2{
+    width: 400px;
+    height: 200px;
+    margin: 20px 30px 0 30px;
+}
+.logo-pay{
+    /* background-color: pink; */
+    width: 50px;
+    height: 30px;
+    
+}
+.text1 p{
+    margin-bottom: 5px;
+}
+.text1 h4{
+    margin: 10px 0;
+    
+}
+
+.menu1-child{
+    /* position: absolute; */
+    background-color:black;
+    /* width: 100%; */
+    height: 250px;
+    left:0px;
+    top: 100%;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    padding-right: 80px;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    transition: .45s;
+    
+}
+.optionsMenu1:hover .menu1-child{
+    opacity: 1;
+    visibility: visible;
+}
+.menu1-child-big{
+    position: absolute;
+    width: 100%;
+    left:0px;
+    top: 100%;
+    display: flex;
+    /* right: 30px; */
+
+}
+.menu1-child-item-list{
+    width: 300px;
+    height: 500px;
+    margin: 10px 10px 0 0;
+    
+}
+.menu1-item-mini{
+    /* background-color: Pink; */
+    width: 250px;
+    height: 40px;
+
+}
+.menu1-item-mini:hover li{
+    color: pink;
+    font-size: larger;
+}
+.menu1-child-item-list li{
+    color: white;
+    margin: 5px;
+}
+.text-menu1{
+    width: 80px;
+    height: 100%;
+}
+
+.menu2-child{
+    /* position: absolute; */
+    background-color:black;
+    /* width: 100%; */
+    height: 250px;
+    left:0px;
+    top: 100%;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    padding-right: 80px;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    transition: .45s;
+    
+}
+.optionsMenu2:hover .menu2-child{
+    opacity: 1;
+    visibility: visible;
+}
+.menu2-child-big{
+    position: absolute;
+    width: 100%;
+    left:0px;
+    top: 100%;
+    display: flex;
+    /* right: 30px; */
+
+}
+.menu2-child-item-list{
+    width: 300px;
+    height: 500px;
+    margin: 10px 10px 0 0;
+    
+}
+.menu2-item-mini{
+    /* background-color: Pink; */
+    width: 250px;
+    height: 40px;
+
+}
+.menu2-item-mini:hover li{
+    color: pink;
+    font-size: larger;
+}
+.menu2-child-item-list li{
+    color: white;
+    margin: 5px;
+}
+.text-menu2{
+    width: 80px;
+    height: 100%;
+}
+
+.navbar-main{
+    width: 90%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    /* position: relative; */
+    margin: 0 50px;
+}
